@@ -1,0 +1,206 @@
+            body{
+            margin:0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+
+            }
+            .center h1 {
+                color: white;
+            }
+
+            img {
+                width: 400px; /* Defina a largura desejada */
+                height: 300px; /* Defina a altura desejada */
+                display: inline-block; /* Manter as imagens em uma linha */
+                vertical-align: middle; /* Centraliza verticalmente */
+                margin: 0 20px;  /* Centraliza horizontalmente */
+                transition: transform 0.5s;
+            }
+
+
+            img:hover {
+                transform: scale(1.1); /* Aplica um leve zoom quando o mouse passar por cima */
+            }
+
+            .product {
+                display: inline-block;
+                margin: 10px; /* Adicione margem entre os produtos conforme necessário */
+
+            }
+            .highlight-img {
+                width: 270px; /* Defina a largura desejada para as imagens de destaque */
+                height: auto; /* Mantenha a proporção de aspecto original */
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.473); /* Adicione uma sombra suave */
+            }
+            .info {
+                margin-top: 5px; /* Adicione um espaço entre a imagem e o texto */
+            }
+
+            .menu {
+                background-color: #00000000; /* Cor de fundo do menu */
+                color: rgb(0, 0, 0); /* Cor do texto no menu */
+                padding: 10px 0;
+                text-align: center;
+                font-weight: bold; /* Torna o texto em negrito */
+            }
+
+            .menu ul {
+                list-style: none;
+                padding: 0;
+            }
+            /* Estilize o ícone e as informações adicionais */
+            .icon-container {
+                position: relative;
+                display: inline-block;
+            }
+
+            .icon-info {
+                display: none;
+                position: absolute;
+                background-color: #800080;
+                color: #ffffff;
+                padding: 20px;
+                border-radius: 5px;
+                width: 150px;
+                top: 100%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-10px) scale(0.8); /* Adicionei escala para esconder inicialmente */
+                transition: transform 0.3s ease; /* Adicionei transição na transformação */
+            }
+
+            .icon-container:hover .icon-info {
+                display: block;
+                transform: translateX(-50%) translateY(0) scale(1); /* Escala 1 para mostrar o elemento completo */
+            }
+
+            #if{
+            color: white;
+            }
+                .fab{
+                    color: white;
+                    font-size: 25px;
+                }
+
+
+            .menu ul li {
+                display: inline;
+                margin-right: 20px; /* Espaço entre os itens do menu */
+            }
+
+            .menu ul li a {
+                text-decoration: none;
+                color: #000000; /* Cor dos links no menu */
+                font-size: 18px;
+                transition: color 0.3s; /* Adiciona uma transição de cor suave */
+            }
+
+            .menu ul li a:hover {
+                color: #141414; /* Cor ao passar o mouse sobre os links */
+            }
+            .menu ul li .purple {
+                color: #800080; /* Cor roxa */
+                margin-left: 50px;
+            }
+            .menu ul li  .dcy {
+                color: #000000; /* Cor roxa */
+                margin-right: 100px;
+                font-size: 23px;
+            }
+
+
+
+
+            .card {
+                    width: 550px; /* Largura do card */
+                    border: 2px solid #d3d3d3;
+                    border-radius: 8px;
+                    padding: 70px;
+                    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                    text-align: center;
+                    margin: 100px auto 0; /* Centraliza o card horizontalmente e adiciona uma margem superior maior */
+                    transition: transform 0.5s;
+                    z-index: 1; /* Define um z-index menor para o card */
+                }
+            .card:hover {
+                /* Estilos quando o mouse passa por cima do card */
+                transform: scale(1.08); /* Aumenta o tamanho do card em 5% */
+            }
+
+            .card img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            .card h2 {
+                color: #333;
+                font-size: 24px;
+            }
+
+            .card p {
+                color: #666;
+                font-size: 16px;
+            }
+            footer {
+                background-color: #8A2BE2; /* Cor de fundo vermelha */
+                color: #fff; /* Cor do texto branco */
+                text-align: center;
+                padding: 20px 0; /* Espaçamento interno superior e inferior */
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.521);
+            }
+
+            .rodape {
+                font-size: 14px;
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.521);
+            }
+            .imagem-pequena {
+                width: 100px; /* Defina a largura desejada */
+                height: auto; /* A altura será ajustada automaticamente para manter a proporção */
+            }
+
+            .sobre {
+                background-color: #8A2BE2;
+                color: #fff;
+                padding: 50px;
+                overflow: hidden;
+                height: auto;
+                
+            
+            }
+
+            .texto {
+                float: left;
+                width: 50%;
+                margin-left: 50px;
+            }
+
+            .sobre img#eqp {
+                float: right;
+                height: 500px;
+                width: 350px;
+                border-radius: 15px;
+                margin-right: 250px; /* Aumente este valor para reduzir o espaço entre a imagem e o texto */
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.473);
+                
+            }
+            .botao button.botao-roxo {
+                background-color: #ffffff;
+                color: #8A2BE2;
+                border: none;
+                border-radius: 20px;
+                padding: 10px 20px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+            }
+
+            .botao button.botao-roxo:hover {
+                background-color: #eed3ff; /* Cor de fundo alterada ao passar o mouse */
+            }
+
+            .fas{
+                margin-top: 10px;
+                margin-left: 30px;
+            }
+            #bo{
+                height: 498px;
+                width: 1410px;
+            }

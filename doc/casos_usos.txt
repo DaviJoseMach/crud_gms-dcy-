@@ -1,0 +1,36 @@
+Navegar pelo Catálogo:
+
+O usuário pode visualizar uma lista de jogos disponíveis para compra ou download.
+O usuário pode pesquisar jogos por título, gênero, plataforma, classificação, etc.
+O usuário pode ver os detalhes de um jogo, incluindo imagens, descrição, requisitos do sistema e preço.
+
+Comprar um Jogo:
+
+O usuário pode adicionar jogos ao carrinho de compras.
+O usuário pode visualizar o carrinho de compras e editar a quantidade de jogos.
+O usuário pode proceder ao pagamento e fornecer informações de pagamento.
+
+Gerenciar Conta:
+
+O usuário pode criar uma conta ou fazer login em uma conta existente.
+O usuário pode visualizar e editar informações de perfil.
+O usuário pode alterar a senha da conta.
+O usuário pode visualizar o histórico de compras e downloads.
+
+Avaliações e Comentários:
+
+O usuário pode avaliar e deixar comentários sobre jogos.
+O usuário pode ler avaliações e comentários de outros jogadores.
+
+Suporte ao Cliente:
+
+O usuário pode entrar em contato com o suporte ao cliente para resolver problemas ou fazer perguntas.
+O usuário pode acessar informações de contato e recursos de suporte.
+
+Recomendações Personalizadas:
+
+O sistema pode recomendar jogos com base no histórico de compras e preferências do usuário.
+O usuário pode receber notificações sobre promoções e ofertas especiais.
+
+Administradores // Pagina de login
+
